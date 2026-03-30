@@ -18,7 +18,7 @@ import dash_bootstrap_components as dbc
 # ═══════════════════════════════════════════════════════════════
 # CELL 3 — Load & Prepare Data
 # ═══════════════════════════════════════════════════════════════
-FILE_PATH = r"C:\Users\bhogi\Desktop\Yug\Climate\Japan Dashboard\Main data for Assignment.xlsx"
+FILE_PATH = "../Main data for Assignment.xlsx"
 
 df_raw = pd.read_excel(FILE_PATH)
 df_raw.columns = [
