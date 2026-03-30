@@ -249,7 +249,7 @@ app = Dash(__name__, external_stylesheets=[
     dbc.themes.BOOTSTRAP,
     'https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=Inter:wght@300;400;500;600&display=swap'
 ])
-
+server = app.server
 app.index_string = '''
 <!DOCTYPE html>
 <html>
